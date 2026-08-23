@@ -1,7 +1,7 @@
-﻿{
-  "version": "0.1.36",
-  "releaseDate": "2026-08-23T18:34:00Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.36/achilles-plugin-0.1.36.vsix",
-  "minVsCodeVersion": "1.90.0",
-  "changelog": "- Nova arquitetura .achilles-plugin isolada\n- Sincronizador de skills unificado\n- Menu multinivel de modelos por provedor\n- Edicao de titulos e exportacao em TXT\n- Motor de auto-update integrado"
+{
+    "version":  "0.1.36",
+    "releaseDate":  "2026-08-23T21:57:40Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.36/achilles-plugin-0.1.36.vsix",
+    "minVsCodeVersion":  "1.90.0",
+    "changelog":  "- Nova arquitetura isolada do Achilles Plugin\n- Sincronizador de skills unificado\n- Seletor multinivel de modelos por provedor\n- Suporte a sessoes e historico"
 }

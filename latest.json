@@ -1,7 +1,7 @@
 {
-  "version": "0.1.77",
-  "releaseDate": "2026-08-24T23:25:07Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.77/achilles-plugin-0.1.77.vsix",
+  "version": "0.1.78",
+  "releaseDate": "2026-08-24T23:41:48Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.78/achilles-plugin-0.1.78.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Remove separadores horizontais que atravessavam o conteudo do chat\n- Compacta ferramentas consecutivas em uma area discreta de atividade do agente\n- Melhora a hierarquia visual de titulos, enfase e codigo inline\n- Reforca legibilidade e copia dos blocos de codigo\n- Adiciona regressao visual dedicada para Markdown, codigo e terminais"
+  "changelog": "- Reproduz a composicao visual do chat do Achilles IDE\n- Mantem respostas do agente transparentes e sem card externo\n- Restaura atualizacoes naturais antes e depois de lotes relevantes de ferramentas\n- Apresenta codigo longo colapsado com linguagem, linhas, copiar e mostrar codigo\n- Substitui o baseline visual anterior por uma referencia alinhada ao Achilles IDE"
 }

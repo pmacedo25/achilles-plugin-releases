@@ -1,7 +1,7 @@
 {
-    "version":  "0.1.36",
-    "releaseDate":  "2026-08-23T21:57:40Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.36/achilles-plugin-0.1.36.vsix",
-    "minVsCodeVersion":  "1.90.0",
-    "changelog":  "- Nova arquitetura isolada do Achilles Plugin\n- Sincronizador de skills unificado\n- Seletor multinivel de modelos por provedor\n- Suporte a sessoes e historico"
+  "version": "0.1.75",
+  "releaseDate": "2026-08-24T20:47:18Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.75/achilles-plugin-0.1.75.vsix",
+  "minVsCodeVersion": "1.90.0",
+  "changelog": "- Restore Achilles IDE chat interaction parity\n- Enforce 200k token context ceiling with hierarchical compaction\n- Synchronize mode-scoped skills from the private canonical repository using GitHub CLI authentication\n- Always inject project governance and aggregate project AGENTS.md\n- Add Playwright, real 9router, and installed-VSIX black-box validation"
 }

@@ -1,19 +1,19 @@
 # Achilles Agent - Official Releases
 
-RepositÃ³rio pÃºblico oficial de distribuiÃ§Ã£o de binÃ¡rios VSIX, manifestos de versÃ£o e auto-update para a extensÃ£o **Achilles Agent** no VS Code.
+Repositório público oficial de distribuição de binários VSIX, manifestos de versão e auto-update para a extensão **Achilles Agent** no VS Code.
 
-## InstalaÃ§Ã£o RÃ¡pida no VS Code
+## Instalação Rápida no VS Code
 
-VocÃª pode instalar a versÃ£o mais recente diretamente pelo terminal:
+Você pode instalar a versão mais recente diretamente pelo terminal:
 
 `ash
-code --install-extension https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.36/achilles-plugin-0.1.36.vsix
+code --install-extension https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.75/achilles-plugin-0.1.75.vsix
 `
 
 Ou baixando o arquivo .vsix diretamente na aba [Releases](https://github.com/pmacedo25/achilles-plugin-releases/releases).
 
-## VersÃ£o Atual
+## Versão Atual
 
-- **VersÃ£o:** v0.1.36
-- **Data:** 2026-08-23T21:57:40Z
-- **Download Direto:** [achilles-plugin-0.1.36.vsix](https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.36/achilles-plugin-0.1.36.vsix)
+- **Versão:** v0.1.75
+- **Data:** 2026-08-24T20:47:18Z
+- **Download Direto:** [achilles-plugin-0.1.75.vsix](https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.75/achilles-plugin-0.1.75.vsix)

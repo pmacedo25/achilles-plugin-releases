@@ -1,7 +1,7 @@
 {
-  "version": "0.1.75",
-  "releaseDate": "2026-08-24T20:47:18Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.75/achilles-plugin-0.1.75.vsix",
+  "version": "0.1.76",
+  "releaseDate": "2026-08-24T21:12:21Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.76/achilles-plugin-0.1.76.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Restore Achilles IDE chat interaction parity\n- Enforce 200k token context ceiling with hierarchical compaction\n- Synchronize mode-scoped skills from the private canonical repository using GitHub CLI authentication\n- Always inject project governance and aggregate project AGENTS.md\n- Add Playwright, real 9router, and installed-VSIX black-box validation"
+  "changelog": "- Restaura feedback incremental do agente durante a execucao\n- Exibe status operacional, ferramentas e terminal em ordem cronologica\n- Corrige o segundo prompt na mesma conversa e evita mistura entre sessoes\n- Normaliza respostas finais sem concatenacao de fragmentos ou emojis\n- Adiciona cobertura E2E e black-box real para o ciclo completo do chat"
 }

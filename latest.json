@@ -1,7 +1,7 @@
 {
-  "version": "0.1.76",
-  "releaseDate": "2026-08-24T21:12:21Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.76/achilles-plugin-0.1.76.vsix",
+  "version": "0.1.77",
+  "releaseDate": "2026-08-24T23:25:07Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.77/achilles-plugin-0.1.77.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Restaura feedback incremental do agente durante a execucao\n- Exibe status operacional, ferramentas e terminal em ordem cronologica\n- Corrige o segundo prompt na mesma conversa e evita mistura entre sessoes\n- Normaliza respostas finais sem concatenacao de fragmentos ou emojis\n- Adiciona cobertura E2E e black-box real para o ciclo completo do chat"
+  "changelog": "- Remove separadores horizontais que atravessavam o conteudo do chat\n- Compacta ferramentas consecutivas em uma area discreta de atividade do agente\n- Melhora a hierarquia visual de titulos, enfase e codigo inline\n- Reforca legibilidade e copia dos blocos de codigo\n- Adiciona regressao visual dedicada para Markdown, codigo e terminais"
 }

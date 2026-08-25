@@ -7,13 +7,13 @@ Repositório público oficial de distribuição de binários VSIX, manifestos de
 Você pode instalar a versão mais recente diretamente pelo terminal:
 
 `ash
-code --install-extension https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.81/achilles-plugin-0.1.81.vsix
+code --install-extension https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.82/achilles-plugin-0.1.82.vsix
 `
 
 Ou baixando o arquivo .vsix diretamente na aba [Releases](https://github.com/pmacedo25/achilles-plugin-releases/releases).
 
 ## Versão Atual
 
-- **Versão:** v0.1.81
-- **Data:** 2026-08-25T00:50:54Z
-- **Download Direto:** [achilles-plugin-0.1.81.vsix](https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.81/achilles-plugin-0.1.81.vsix)
+- **Versão:** v0.1.82
+- **Data:** 2026-08-25T13:38:27Z
+- **Download Direto:** [achilles-plugin-0.1.82.vsix](https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.82/achilles-plugin-0.1.82.vsix)

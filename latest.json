@@ -1,7 +1,7 @@
 {
-  "version": "0.1.81",
-  "releaseDate": "2026-08-25T00:50:54Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.81/achilles-plugin-0.1.81.vsix",
+  "version": "0.1.82",
+  "releaseDate": "2026-08-25T13:38:27Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.82/achilles-plugin-0.1.82.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Desabilita memoria do Caveman e respeita a preferencia de repomap, desligada por padrao\n- Aplica ferramentas por modo e remove schemas Git redundantes\n- Pagina leituras e buscas com limites adaptativos e cache seguro por interacao\n- Limita a saida enviada ao modelo a 32 KB sem cortar o streaming visivel no chat\n- Usa o consumo real reportado pelo provedor para evitar compactacoes antecipadas\n- Otimiza a compactacao hierarquica mantendo protecao de 200 mil tokens"
+  "changelog": "- Restaura o card de resposta do Achilles AI\n- Corrige hierarquia, densidade e cores do Markdown\n- Mantem terminais e progresso no fluxo da resposta\n- Atualiza testes visuais e E2E para proteger o layout"
 }

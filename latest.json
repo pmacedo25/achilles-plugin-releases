@@ -1,7 +1,7 @@
 {
-  "version": "0.1.83",
-  "releaseDate": "2026-08-25T13:45:06Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.83/achilles-plugin-0.1.83.vsix",
+  "version": "0.1.84",
+  "releaseDate": "2026-08-25T15:58:50Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.84/achilles-plugin-0.1.84.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Preserva textos intermediarios do agente entre chamadas de ferramentas\n- Mantem a ordem texto, terminal, descoberta e conclusao\n- Evita duplicar a resposta final quando ela ja veio no streaming\n- Adiciona cobertura unitaria, E2E e visual para a cronologia do chat"
+  "changelog": "- Agent mode routes specialized skills from the unified catalog\r\n- Ambiguous standalone messages no longer trigger mutating tools\r\n- Deploy requests are not treated as commit or push completion\r\n- Tool executions always produce a conclusion after the final tool\r\n- Adds regression coverage for routing, ambiguity, and response finalization"
 }

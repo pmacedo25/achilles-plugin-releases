@@ -1,7 +1,7 @@
 {
-  "version": "0.1.90",
-  "releaseDate": "2026-08-25T19:19:06Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.90/achilles-plugin-0.1.90.vsix",
+  "version": "0.1.91",
+  "releaseDate": "2026-08-25T20:01:36Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.91/achilles-plugin-0.1.91.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Mantem cada acao do agente diretamente ligada ao pedido atual\n- Encerra descoberta quando convencao e exemplo canonico sao suficientes\n- Evita varreduras e alteracoes adjacentes nao solicitadas\n- Adiciona testes de regressao para criacao localizada de secrets"
+  "changelog": "- Restores the Caveman SDK resource loader configuration used for lean sessions.\n- Separates built-in SDK tools from policy-wrapped custom tools and activates the complete mode surface.\n- Reduces cold-session visual history replay from 64 KB to 12 KB.\n- Adds per-run token, cache, context, tool-call, and local compression telemetry.\n- Adds SDK contract and token telemetry regression tests."
 }

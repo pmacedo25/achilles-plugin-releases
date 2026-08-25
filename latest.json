@@ -1,7 +1,7 @@
 {
-  "version": "0.1.92",
-  "releaseDate": "2026-08-25T20:08:48Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.92/achilles-plugin-0.1.92.vsix",
+  "version": "0.1.93",
+  "releaseDate": "2026-08-25T20:22:22Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.93/achilles-plugin-0.1.93.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Removes the collapsible activity group that hid consecutive terminal executions.\n- Renders each terminal and tool activity individually in chronological order.\n- Keeps terminal output independently collapsible with visible execution status and exit code.\n- Updates E2E, visual compliance tests, and the reviewed chat baseline."
+  "changelog": "- Limits assistant content to 88% width while preserving its borderless left-aligned presentation.\n- Detects Caveman assistant message boundaries without breaking token-level streaming.\n- Renders distinct intermediate messages as separate paragraphs instead of concatenated text.\n- Preserves paragraph boundaries in persisted, copied, and exported conversation content.\n- Adds regression coverage for message boundaries and assistant layout."
 }

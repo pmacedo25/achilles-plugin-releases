@@ -1,7 +1,7 @@
 {
-  "version": "0.1.87",
-  "releaseDate": "2026-08-25T18:37:16Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.87/achilles-plugin-0.1.87.vsix",
+  "version": "0.1.88",
+  "releaseDate": "2026-08-25T18:43:05Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.88/achilles-plugin-0.1.88.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Reduz o contexto de sessoes retomadas e evita historico duplicado\n- Corrige checkpoints opcionais e textos finais duplicados\n- Melhora a estabilidade do fluxo do agente"
+  "changelog": "- Faz o updater consultar fontes sem cache atrasado e detectar releases imediatamente\n- Garante publicacao exclusivamente local, sem GitHub Actions\n- Verifica release, asset VSIX e latest.json antes de concluir\n- Atualiza adm-zip para 0.6.0 e substitui extract-zip vulneravel por extracao segura\n- Mantem audit de dependencias com zero vulnerabilidades"
 }

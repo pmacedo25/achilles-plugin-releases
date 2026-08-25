@@ -1,7 +1,7 @@
 {
-  "version": "0.1.82",
-  "releaseDate": "2026-08-25T13:38:27Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.82/achilles-plugin-0.1.82.vsix",
+  "version": "0.1.83",
+  "releaseDate": "2026-08-25T13:45:06Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.83/achilles-plugin-0.1.83.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Restaura o card de resposta do Achilles AI\n- Corrige hierarquia, densidade e cores do Markdown\n- Mantem terminais e progresso no fluxo da resposta\n- Atualiza testes visuais e E2E para proteger o layout"
+  "changelog": "- Preserva textos intermediarios do agente entre chamadas de ferramentas\n- Mantem a ordem texto, terminal, descoberta e conclusao\n- Evita duplicar a resposta final quando ela ja veio no streaming\n- Adiciona cobertura unitaria, E2E e visual para a cronologia do chat"
 }

@@ -1,6 +1,6 @@
 {
-  "version": "0.1.85",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.85/achilles-plugin-0.1.85.vsix",
+  "version": "0.1.86",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.86/achilles-plugin-0.1.86.vsix",
   "releaseDate": "2026-08-25",
-  "changelog": "Melhora o comportamento do agente, a interface de progresso e a eficiencia de contexto com limpeza incremental do Caveman."
+  "changelog": "Corrige a verificacao de updates quando o manifesto do CDN esta atrasado, escolhendo a maior versao entre latest.json e GitHub Releases."
 }

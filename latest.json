@@ -1,7 +1,7 @@
 {
-  "version": "0.1.89",
-  "releaseDate": "2026-08-25T18:58:15Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.89/achilles-plugin-0.1.89.vsix",
+  "version": "0.1.90",
+  "releaseDate": "2026-08-25T19:19:06Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.90/achilles-plugin-0.1.90.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Suaviza a interface do chat com hierarquia visual mais limpa\n- Remove molduras e sombras pesadas das respostas e terminais\n- Padroniza divisores discretos em markdown, tabelas e blocos de codigo\n- Substitui o amarelo intenso por um acento dourado dessaturado\n- Mantem contraste adaptativo nos temas dark e light"
+  "changelog": "- Mantem cada acao do agente diretamente ligada ao pedido atual\n- Encerra descoberta quando convencao e exemplo canonico sao suficientes\n- Evita varreduras e alteracoes adjacentes nao solicitadas\n- Adiciona testes de regressao para criacao localizada de secrets"
 }

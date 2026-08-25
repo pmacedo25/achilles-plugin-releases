@@ -1,7 +1,7 @@
 {
-  "version": "0.1.79",
-  "releaseDate": "2026-08-25T00:15:53Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.79/achilles-plugin-0.1.79.vsix",
+  "version": "0.1.80",
+  "releaseDate": "2026-08-25T00:24:14Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.80/achilles-plugin-0.1.80.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Substitui o parser linha a linha por renderizacao Markdown semantica com GFM\n- Corrige listas aninhadas, numeracao, paragrafos e ritmo vertical em respostas longas\n- Preserva quebras intencionais dentro de recomendacoes e itens de lista\n- Mantem blocos de codigo colapsaveis, copia, tabelas e acentos visuais do Achilles IDE\n- Adiciona baseline visual baseado em uma auditoria longa equivalente ao caso reportado"
+  "changelog": "- Restaura a exploracao incremental de arquivos e diretorios pelo Caveman Code\n- Limita a saida de terminal enviada ao contexto a 50 KB, preservando a cauda relevante\n- Evita a ferramenta agregada ampla e usa ferramentas nativas limitadas de leitura, busca, listagem, edicao e escrita\n- Reforca regras de eficiencia, offset/limit e proibicao de carregar o repositorio inteiro\n- Corrige o black-box para validar sempre a maior versao semantica empacotada"
 }

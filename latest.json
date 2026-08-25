@@ -1,6 +1,6 @@
 {
   "version": "0.1.87",
-  "releaseDate": "2026-08-25T18:35:45Z",
+  "releaseDate": "2026-08-25T18:37:16Z",
   "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.87/achilles-plugin-0.1.87.vsix",
   "minVsCodeVersion": "1.90.0",
   "changelog": "- Reduz o contexto de sessoes retomadas e evita historico duplicado\n- Corrige checkpoints opcionais e textos finais duplicados\n- Melhora a estabilidade do fluxo do agente"

@@ -15,5 +15,5 @@ Ou baixando o arquivo .vsix diretamente na aba [Releases](https://github.com/pma
 ## Versão Atual
 
 - **Versão:** v0.1.87
-- **Data:** 2026-08-25T18:35:45Z
+- **Data:** 2026-08-25T18:37:16Z
 - **Download Direto:** [achilles-plugin-0.1.87.vsix](https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.87/achilles-plugin-0.1.87.vsix)

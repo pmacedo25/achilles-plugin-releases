@@ -1,7 +1,7 @@
 {
-  "version": "0.1.88",
-  "releaseDate": "2026-08-25T18:43:05Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.88/achilles-plugin-0.1.88.vsix",
+  "version": "0.1.89",
+  "releaseDate": "2026-08-25T18:58:15Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.89/achilles-plugin-0.1.89.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Faz o updater consultar fontes sem cache atrasado e detectar releases imediatamente\n- Garante publicacao exclusivamente local, sem GitHub Actions\n- Verifica release, asset VSIX e latest.json antes de concluir\n- Atualiza adm-zip para 0.6.0 e substitui extract-zip vulneravel por extracao segura\n- Mantem audit de dependencias com zero vulnerabilidades"
+  "changelog": "- Suaviza a interface do chat com hierarquia visual mais limpa\n- Remove molduras e sombras pesadas das respostas e terminais\n- Padroniza divisores discretos em markdown, tabelas e blocos de codigo\n- Substitui o amarelo intenso por um acento dourado dessaturado\n- Mantem contraste adaptativo nos temas dark e light"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "0.1.93",
-  "releaseDate": "2026-08-25T20:22:22Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.93/achilles-plugin-0.1.93.vsix",
+  "version": "0.1.94",
+  "releaseDate": "2026-08-25T20:52:00Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.94/achilles-plugin-0.1.94.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Limits assistant content to 88% width while preserving its borderless left-aligned presentation.\n- Detects Caveman assistant message boundaries without breaking token-level streaming.\n- Renders distinct intermediate messages as separate paragraphs instead of concatenated text.\n- Preserves paragraph boundaries in persisted, copied, and exported conversation content.\n- Adds regression coverage for message boundaries and assistant layout."
+  "changelog": "- Limita de forma agregada o contexto ativo de resultados de ferramentas sem reduzir a capacidade do agente.\n- Mantém a consolidação interna ativa mesmo quando checkpoints visuais estão desabilitados.\n- Compacta muitas saídas pequenas durante sessões ativas e retomadas.\n- Reutiliza leituras shell idênticas e amplia a telemetria de contexto."
 }

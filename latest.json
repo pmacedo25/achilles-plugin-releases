@@ -1,7 +1,7 @@
 {
-  "version": "0.1.94",
-  "releaseDate": "2026-08-25T20:52:00Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.94/achilles-plugin-0.1.94.vsix",
-  "minVsCodeVersion": "1.90.0",
-  "changelog": "- Limita de forma agregada o contexto ativo de resultados de ferramentas sem reduzir a capacidade do agente.\n- Mantém a consolidação interna ativa mesmo quando checkpoints visuais estão desabilitados.\n- Compacta muitas saídas pequenas durante sessões ativas e retomadas.\n- Reutiliza leituras shell idênticas e amplia a telemetria de contexto."
+    "version":  "0.1.95",
+    "releaseDate":  "2026-08-25T22:25:46Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.95/achilles-plugin-0.1.95.vsix",
+    "minVsCodeVersion":  "1.90.0",
+    "changelog":  "- Adiciona memoria estruturada por workspace com invalidacao, TTL e protecao de segredos\n- Adiciona retrieval just-in-time e repo map consultavel com descarte de evidencias antigas\n- Estrutura compactacao semantica e handoff duravel para retomadas\n- Habilita subagentes isolados, somente leitura e limitados por solicitacao\n- Adiciona telemetria e flags independentes para avaliacao de custo\n- Corrige write e edit para permanecerem no workspace ativo"
 }

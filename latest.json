@@ -1,7 +1,7 @@
 {
-  "version": "0.1.91",
-  "releaseDate": "2026-08-25T20:01:36Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.91/achilles-plugin-0.1.91.vsix",
+  "version": "0.1.92",
+  "releaseDate": "2026-08-25T20:08:48Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.92/achilles-plugin-0.1.92.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Restores the Caveman SDK resource loader configuration used for lean sessions.\n- Separates built-in SDK tools from policy-wrapped custom tools and activates the complete mode surface.\n- Reduces cold-session visual history replay from 64 KB to 12 KB.\n- Adds per-run token, cache, context, tool-call, and local compression telemetry.\n- Adds SDK contract and token telemetry regression tests."
+  "changelog": "- Removes the collapsible activity group that hid consecutive terminal executions.\n- Renders each terminal and tool activity individually in chronological order.\n- Keeps terminal output independently collapsible with visible execution status and exit code.\n- Updates E2E, visual compliance tests, and the reviewed chat baseline."
 }

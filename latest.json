@@ -1,7 +1,7 @@
 {
-  "version": "0.1.80",
-  "releaseDate": "2026-08-25T00:24:14Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.80/achilles-plugin-0.1.80.vsix",
+  "version": "0.1.81",
+  "releaseDate": "2026-08-25T00:50:54Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.81/achilles-plugin-0.1.81.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Restaura a exploracao incremental de arquivos e diretorios pelo Caveman Code\n- Limita a saida de terminal enviada ao contexto a 50 KB, preservando a cauda relevante\n- Evita a ferramenta agregada ampla e usa ferramentas nativas limitadas de leitura, busca, listagem, edicao e escrita\n- Reforca regras de eficiencia, offset/limit e proibicao de carregar o repositorio inteiro\n- Corrige o black-box para validar sempre a maior versao semantica empacotada"
+  "changelog": "- Desabilita memoria do Caveman e respeita a preferencia de repomap, desligada por padrao\n- Aplica ferramentas por modo e remove schemas Git redundantes\n- Pagina leituras e buscas com limites adaptativos e cache seguro por interacao\n- Limita a saida enviada ao modelo a 32 KB sem cortar o streaming visivel no chat\n- Usa o consumo real reportado pelo provedor para evitar compactacoes antecipadas\n- Otimiza a compactacao hierarquica mantendo protecao de 200 mil tokens"
 }

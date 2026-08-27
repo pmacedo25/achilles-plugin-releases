@@ -1,8 +1,8 @@
 {
-  "version": "0.2.3-beta",
-  "releaseDate": "2026-08-27T01:31:38Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.3-beta/achilles-plugin-0.2.3-beta.vsix",
+  "version": "0.2.4-beta",
+  "releaseDate": "2026-08-27T01:34:16Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.4-beta/achilles-plugin-0.2.4-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "Corrige o esquema de versionamento beta para usar o patch antes do identificador prerelease. Mantem os conectores Ollama local/LAN e Ollama Cloud por API key."
+  "changelog": "Atualiza o canal beta para o padrao 0.2.x-beta e seleciona a maior versao SemVer elegivel, independentemente da ordem retornada pela API do GitHub."
 }

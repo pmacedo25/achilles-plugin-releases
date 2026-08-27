@@ -1,7 +1,7 @@
 {
-    "version":  "0.1.96",
-    "releaseDate":  "2026-08-27T00:53:44Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.96/achilles-plugin-0.1.96.vsix",
+    "version":  "0.2.7-beta",
+    "releaseDate":  "2026-08-27T18:49:05Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.7-beta/achilles-plugin-0.2.7-beta.vsix",
     "minVsCodeVersion":  "1.90.0",
-    "changelog":  "- Adiciona opcao explicita para receber versoes beta\n- Mantem pre-releases bloqueadas por padrao\n- Corrige comparacao SemVer de identificadores beta"
+    "changelog":  "- Achilles Control Plane compartilhado com providers, combos, quotas e telemetria\n- OAuth callback e GitHub Copilot device flow aprimorados\n- Dashboard com tokens totais, input, output, cache, RTK e chamadas reais\n- Gateway concorrente com fila compartilhada entre janelas do VS Code\n- RTK embutido e seguro para fluxos Git mutáveis"
 }

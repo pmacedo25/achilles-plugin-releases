@@ -1,7 +1,7 @@
 {
-    "version":  "0.1.95",
-    "releaseDate":  "2026-08-25T22:25:46Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.95/achilles-plugin-0.1.95.vsix",
+    "version":  "0.1.96",
+    "releaseDate":  "2026-08-27T00:53:44Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.96/achilles-plugin-0.1.96.vsix",
     "minVsCodeVersion":  "1.90.0",
-    "changelog":  "- Adiciona memoria estruturada por workspace com invalidacao, TTL e protecao de segredos\n- Adiciona retrieval just-in-time e repo map consultavel com descarte de evidencias antigas\n- Estrutura compactacao semantica e handoff duravel para retomadas\n- Habilita subagentes isolados, somente leitura e limitados por solicitacao\n- Adiciona telemetria e flags independentes para avaliacao de custo\n- Corrige write e edit para permanecerem no workspace ativo"
+    "changelog":  "- Adiciona opcao explicita para receber versoes beta\n- Mantem pre-releases bloqueadas por padrao\n- Corrige comparacao SemVer de identificadores beta"
 }

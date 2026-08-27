@@ -1,8 +1,8 @@
 {
-  "version": "0.2.0-beta.1",
-  "releaseDate": "2026-08-27T00:58:00Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.0-beta.1/achilles-plugin-0.2.0-beta.1.vsix",
+  "version": "0.2.0-beta.2",
+  "releaseDate": "2026-08-27T01:10:00Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.0-beta.2/achilles-plugin-0.2.0-beta.2.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "Beta restrita do gateway local compartilhado, providers, combos, dashboard, quotas e RTK."
+  "changelog": "Adiciona repositorio pessoal de skills, token seguro e fallback para GitHub CLI."
 }

@@ -1,8 +1,8 @@
 {
-  "version": "0.2.4-beta",
-  "releaseDate": "2026-08-27T01:34:16Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.4-beta/achilles-plugin-0.2.4-beta.vsix",
+  "version": "0.2.9-beta",
+  "releaseDate": "2026-08-28T12:09:19Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.9-beta/achilles-plugin-0.2.9-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "Atualiza o canal beta para o padrao 0.2.x-beta e seleciona a maior versao SemVer elegivel, independentemente da ordem retornada pela API do GitHub."
+  "changelog": "Abre o Control Plane no painel central, adiciona logs sanitizados e corrige os seletores no tema escuro."
 }

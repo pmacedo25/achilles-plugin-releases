@@ -1,7 +1,8 @@
 {
-  "version": "0.2.9-beta",
-  "releaseDate": "2026-08-28T12:09:19Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.9-beta/achilles-plugin-0.2.9-beta.vsix",
+  "version": "0.1.96",
+  "releaseDate": "2026-08-27T00:53:19Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.1.96/achilles-plugin-0.1.96.vsix",
   "minVsCodeVersion": "1.90.0",
-  "changelog": "- Abre o Achilles Control Plane no painel central e remove o atalho duplicado da Primary Sidebar.\n- Adiciona logs sanitizados para erros do Control Plane e dos fluxos OAuth.\n- Corrige o tema dark dos seletores nas configuracoes do agente.\n- Mantem validacoes de concorrencia, OAuth, dashboard e gateway na suite local."
+  "prerelease": false,
+  "changelog": "Versao estavel recomendada para uso geral. Adiciona a opcao de participar do canal beta sem instalar automaticamente versoes de teste."
 }

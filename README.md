@@ -20,7 +20,7 @@ Abra o PowerShell e execute:
 irm https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/install.ps1 | iex
 ```
 
-O instalador baixa a beta mais recente, verifica o artefato publicado e instala o VSIX usando o CLI da IDE disponível.
+O instalador baixa a versão estável mais recente, verifica o artefato publicado e instala o VSIX usando o CLI da IDE disponível.
 
 Para selecionar explicitamente a IDE:
 
@@ -33,14 +33,31 @@ Você também pode baixar o VSIX pela página de [Releases](https://github.com/p
 
 > Revise o conteúdo de [`install.ps1`](install.ps1) antes de executar scripts remotos em ambientes controlados.
 
+### Canal beta opcional
+
+A versão beta contém recursos em validação e não é recomendada para uso geral. Para instalá-la deliberadamente:
+
+```powershell
+$env:ACHILLES_CHANNEL = "beta"
+irm https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/install.ps1 | iex
+```
+
+Remova a variável depois da instalação para que o script volte ao canal estável:
+
+```powershell
+Remove-Item Env:ACHILLES_CHANNEL -ErrorAction SilentlyContinue
+```
+
 ## Primeiro uso
 
 1. Recarregue o VS Code após a instalação.
 2. Abra o ícone do Achilles na barra lateral.
-3. No painel do agente, clique no botão do **Control Plane** para abrir o gerenciamento na área central da IDE.
-4. Conecte ao menos um provider.
-5. Escolha diretamente um provider/modelo no chat ou crie um combo de fallback.
-6. Envie uma mensagem simples para confirmar a conexão.
+3. Abra as configurações do agente e confirme o modelo e o gateway disponíveis.
+4. Envie uma mensagem simples para confirmar a instalação.
+
+## Recursos em validação no canal beta
+
+As seções de providers, Control Plane, quotas e combos abaixo descrevem a prévia `0.2.x-beta`. Para uso normal, permaneça na versão estável.
 
 ## Configurar providers
 
@@ -122,7 +139,7 @@ Copie a pasta [`templates/skills-repository`](templates/skills-repository) para 
 
 ## Atualizações beta
 
-Em **Settings → Agente**, ative **Receber versões beta**. O Achilles verificará o canal beta e oferecerá versões compatíveis. Desative a opção quando não quiser receber versões de teste.
+Em **Settings → Agente**, ative **Receber versões beta** somente quando quiser participar dos testes. O Achilles verificará o canal beta e oferecerá versões compatíveis. Para voltar ao fluxo normal, desative a opção e reinstale a versão estável.
 
 ## Diagnóstico
 
@@ -134,11 +151,10 @@ Se uma operação falhar:
 4. Abra **Settings → Diagnóstico** para consultar as informações disponibilizadas pelo plugin.
 5. Ao reportar um problema, envie versão do plugin, provider, horário aproximado e mensagem sanitizada. Nunca envie tokens ou chaves.
 
-## Versão atual
+## Versões atuais
 
-- Canal: beta.
-- Versão: `0.2.9-beta`.
-- [Download direto do VSIX](https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.9-beta/achilles-plugin-0.2.9-beta.vsix).
+- Estável recomendada: [`0.1.96`](https://github.com/pmacedo25/achilles-plugin-releases/releases/tag/v0.1.96).
+- Prévia opcional: [`0.2.10-beta`](https://github.com/pmacedo25/achilles-plugin-releases/releases/tag/v0.2.10-beta).
 
 ## Segurança
 

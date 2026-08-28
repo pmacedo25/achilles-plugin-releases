@@ -3,7 +3,10 @@ $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
-$manifestUrl = 'https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/latest-beta.json'
+$channel = if ($env:ACHILLES_CHANNEL) { $env:ACHILLES_CHANNEL.Trim().ToLowerInvariant() } else { 'stable' }
+if ($channel -notin @('stable', 'beta')) { throw "Unsupported ACHILLES_CHANNEL '$channel'. Use stable or beta." }
+$manifestName = if ($channel -eq 'beta') { 'latest-beta.json' } else { 'latest.json' }
+$manifestUrl = "https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/$manifestName"
 $releaseRepository = 'pmacedo25/achilles-plugin-releases'
 $allowedDownloadPrefix = "https://github.com/$releaseRepository/releases/download/"
 $temporaryFile = Join-Path ([System.IO.Path]::GetTempPath()) "achilles-$([guid]::NewGuid().ToString('N')).vsix"
@@ -21,7 +24,7 @@ function Resolve-IdeCommand {
 }
 
 try {
-    Write-Host 'Achilles: reading the public beta manifest...'
+    Write-Host "Achilles: reading the public $channel manifest..."
     $manifest = Invoke-RestMethod -Uri $manifestUrl -Headers @{ 'Cache-Control' = 'no-cache' }
     if (-not $manifest.version -or -not $manifest.downloadUrl) { throw 'The release manifest is invalid.' }
     $downloadUrl = [string]$manifest.downloadUrl
@@ -53,4 +56,3 @@ try {
 finally {
     if (Test-Path -LiteralPath $temporaryFile) { Remove-Item -LiteralPath $temporaryFile -Force }
 }
-

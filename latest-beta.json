@@ -1,8 +1,8 @@
 {
-  "version": "0.2.10-beta",
-  "releaseDate": "2026-08-28T12:39:36Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.10-beta/achilles-plugin-0.2.10-beta.vsix",
+  "version": "0.2.17-beta",
+  "releaseDate": "2026-08-28T22:15:32Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.17-beta/achilles-plugin-0.2.17-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Adiciona logs sanitizados e persistentes para inicializacao, Control Plane e fluxos OAuth.\n- Exibe os caminhos de diagnostico nas configuracoes do agente.\n- Corrige a propagacao de certificado e proxy em ambientes corporativos.\n- Reduz o tempo de inicializacao com ativacao sob demanda, reutilizacao rapida do gateway e hidratacao paralela de credenciais.\n- Preserva a documentacao publica durante releases e atualiza corretamente o canal beta."
+  "changelog": "- Corrige a fila do chat para preservar a execucao ativa e a ordem das mensagens\n- Torna o fallback resiliente a quota, rate limit, indisponibilidade e circuit breaker\n- Melhora quotas dinamicas de Anthropic, GitHub Copilot e Antigravity\n- Atualiza descoberta de modelos e tratamento de contexto do agente\n- Mantem tokens novos e cache separados no dashboard\n- Amplia testes E2E de concorrencia, fallback, fila e Control Plane"
 }

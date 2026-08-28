@@ -1,8 +1,8 @@
 {
-  "version": "0.2.9-beta",
-  "releaseDate": "2026-08-28T12:09:19Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.9-beta/achilles-plugin-0.2.9-beta.vsix",
+  "version": "0.2.10-beta",
+  "releaseDate": "2026-08-28T12:39:36Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.10-beta/achilles-plugin-0.2.10-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "Abre o Control Plane no painel central, adiciona logs sanitizados e corrige os seletores no tema escuro."
+  "changelog": "- Adiciona logs sanitizados e persistentes para inicializacao, Control Plane e fluxos OAuth.\n- Exibe os caminhos de diagnostico nas configuracoes do agente.\n- Corrige a propagacao de certificado e proxy em ambientes corporativos.\n- Reduz o tempo de inicializacao com ativacao sob demanda, reutilizacao rapida do gateway e hidratacao paralela de credenciais.\n- Preserva a documentacao publica durante releases e atualiza corretamente o canal beta."
 }

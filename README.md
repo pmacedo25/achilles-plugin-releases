@@ -17,7 +17,7 @@ Este repositório contém somente os artefatos públicos de instalação, manife
 Abra o PowerShell e execute:
 
 ```powershell
-irm https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/9121d4c/install.ps1 | iex
 ```
 
 O instalador baixa a versão estável mais recente, verifica o artefato publicado e instala o VSIX usando o CLI da IDE disponível.
@@ -26,7 +26,7 @@ Para selecionar explicitamente a IDE:
 
 ```powershell
 $env:ACHILLES_IDE = "code" # code, cursor ou codium
-irm https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/9121d4c/install.ps1 | iex
 ```
 
 Você também pode baixar o VSIX pela página de [Releases](https://github.com/pmacedo25/achilles-plugin-releases/releases) e usar **Extensions → … → Install from VSIX…**.
@@ -39,7 +39,7 @@ A versão beta contém recursos em validação e não é recomendada para uso ge
 
 ```powershell
 $env:ACHILLES_CHANNEL = "beta"
-irm https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/9121d4c/install.ps1 | iex
 ```
 
 Remova a variável depois da instalação para que o script volte ao canal estável:

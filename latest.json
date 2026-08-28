@@ -1,7 +1,7 @@
 {
-    "version":  "0.2.7-beta",
-    "releaseDate":  "2026-08-27T18:49:05Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.7-beta/achilles-plugin-0.2.7-beta.vsix",
-    "minVsCodeVersion":  "1.90.0",
-    "changelog":  "- Achilles Control Plane compartilhado com providers, combos, quotas e telemetria\n- OAuth callback e GitHub Copilot device flow aprimorados\n- Dashboard com tokens totais, input, output, cache, RTK e chamadas reais\n- Gateway concorrente com fila compartilhada entre janelas do VS Code\n- RTK embutido e seguro para fluxos Git mutáveis"
+  "version": "0.2.9-beta",
+  "releaseDate": "2026-08-28T12:09:19Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.9-beta/achilles-plugin-0.2.9-beta.vsix",
+  "minVsCodeVersion": "1.90.0",
+  "changelog": "- Abre o Achilles Control Plane no painel central e remove o atalho duplicado da Primary Sidebar.\n- Adiciona logs sanitizados para erros do Control Plane e dos fluxos OAuth.\n- Corrige o tema dark dos seletores nas configuracoes do agente.\n- Mantem validacoes de concorrencia, OAuth, dashboard e gateway na suite local."
 }

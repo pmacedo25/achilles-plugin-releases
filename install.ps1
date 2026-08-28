@@ -6,7 +6,8 @@ $OutputEncoding = [System.Text.Encoding]::UTF8
 $channel = if ($env:ACHILLES_CHANNEL) { $env:ACHILLES_CHANNEL.Trim().ToLowerInvariant() } else { 'stable' }
 if ($channel -notin @('stable', 'beta')) { throw "Unsupported ACHILLES_CHANNEL '$channel'. Use stable or beta." }
 $manifestName = if ($channel -eq 'beta') { 'latest-beta.json' } else { 'latest.json' }
-$manifestUrl = "https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/$manifestName"
+$cacheBuster = [DateTimeOffset]::UtcNow.ToUnixTimeMilliseconds()
+$manifestUrl = "https://raw.githubusercontent.com/pmacedo25/achilles-plugin-releases/main/$manifestName`?cb=$cacheBuster"
 $releaseRepository = 'pmacedo25/achilles-plugin-releases'
 $allowedDownloadPrefix = "https://github.com/$releaseRepository/releases/download/"
 $temporaryFile = Join-Path ([System.IO.Path]::GetTempPath()) "achilles-$([guid]::NewGuid().ToString('N')).vsix"

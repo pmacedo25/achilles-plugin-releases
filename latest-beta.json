@@ -1,8 +1,8 @@
 {
-  "version": "0.2.17-beta",
-  "releaseDate": "2026-08-28T22:15:32Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.17-beta/achilles-plugin-0.2.17-beta.vsix",
+  "version": "0.2.18-beta",
+  "releaseDate": "2026-08-30T16:35:01Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.18-beta/achilles-plugin-0.2.18-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Corrige a fila do chat para preservar a execucao ativa e a ordem das mensagens\n- Torna o fallback resiliente a quota, rate limit, indisponibilidade e circuit breaker\n- Melhora quotas dinamicas de Anthropic, GitHub Copilot e Antigravity\n- Atualiza descoberta de modelos e tratamento de contexto do agente\n- Mantem tokens novos e cache separados no dashboard\n- Amplia testes E2E de concorrencia, fallback, fila e Control Plane"
+  "changelog": "- Corrige Recent Requests para respeitar a retenção de 90 dias\n- Reduz leituras e atualizações redundantes do dashboard entre múltiplas IDEs\n- Atualiza a consulta dinâmica de cotas do Antigravity\n- Adiciona validação E2E de tráfego concorrente entre sessões"
 }

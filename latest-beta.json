@@ -1,8 +1,8 @@
 {
-  "version": "0.2.20-beta",
-  "releaseDate": "2026-08-30T23:43:15Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.20-beta/achilles-plugin-0.2.20-beta.vsix",
+  "version": "0.2.21-beta",
+  "releaseDate": "2026-08-31T01:21:04Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.21-beta/achilles-plugin-0.2.21-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Mantem o agente processando ao sair pela Home e reabrir a mesma conversa\n- Preserva requisicoes ativas quando outra janela do VS Code e fechada\n- Melhora concorrencia, filas e tempo de resposta do gateway compartilhado\n- Reduz custo de atualizacao do dashboard e manutencao da telemetria"
+  "changelog": "- Gera documentacao em um novo chat sem interromper a conversa ativa\n- Isola runtime, sessao, ferramentas e cancelamento da execucao de documentacao\n- Permite alternar entre chats em processamento sem cancelar as tarefas\n- Mantem o botao de documentacao disponivel durante outra execucao"
 }

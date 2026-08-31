@@ -1,8 +1,8 @@
 {
-  "version": "0.2.22-beta",
-  "releaseDate": "2026-08-31T14:19:37Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.22-beta/achilles-plugin-0.2.22-beta.vsix",
+  "version": "0.2.24-beta",
+  "releaseDate": "2026-08-31T15:18:53Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.24-beta/achilles-plugin-0.2.24-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Corrige a primeira interacao iniciada pela Home\n- Sincroniza a nova sessao antes do primeiro token do agente\n- Impede que status, ferramentas, respostas e erros sejam descartados pela navegacao\n- Adiciona cobertura E2E para primeiro token e conclusao"
+  "changelog": "- Progresso detalhado e tempo decorrido durante a compactacao de contexto\n- Compactacao com baixo esforco, cancelamento e timeout por etapa\n- Credenciais ficticias em arquivos de teste nao interrompem mais o agente\n- Memoria duravel continua sem persistir conteudo semelhante a credenciais"
 }

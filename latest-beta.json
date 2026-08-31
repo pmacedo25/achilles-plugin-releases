@@ -1,8 +1,8 @@
 {
-  "version": "0.2.21-beta",
-  "releaseDate": "2026-08-31T01:21:04Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.21-beta/achilles-plugin-0.2.21-beta.vsix",
+  "version": "0.2.22-beta",
+  "releaseDate": "2026-08-31T14:19:37Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.22-beta/achilles-plugin-0.2.22-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Gera documentacao em um novo chat sem interromper a conversa ativa\n- Isola runtime, sessao, ferramentas e cancelamento da execucao de documentacao\n- Permite alternar entre chats em processamento sem cancelar as tarefas\n- Mantem o botao de documentacao disponivel durante outra execucao"
+  "changelog": "- Corrige a primeira interacao iniciada pela Home\n- Sincroniza a nova sessao antes do primeiro token do agente\n- Impede que status, ferramentas, respostas e erros sejam descartados pela navegacao\n- Adiciona cobertura E2E para primeiro token e conclusao"
 }

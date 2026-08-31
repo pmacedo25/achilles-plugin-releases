@@ -1,8 +1,8 @@
 {
-  "version": "0.2.24-beta",
-  "releaseDate": "2026-08-31T15:18:53Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.24-beta/achilles-plugin-0.2.24-beta.vsix",
+  "version": "0.2.25-beta",
+  "releaseDate": "2026-08-31T16:11:19Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.25-beta/achilles-plugin-0.2.25-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Progresso detalhado e tempo decorrido durante a compactacao de contexto\n- Compactacao com baixo esforco, cancelamento e timeout por etapa\n- Credenciais ficticias em arquivos de teste nao interrompem mais o agente\n- Memoria duravel continua sem persistir conteudo semelhante a credenciais"
+  "changelog": "- Corrige a normalizacao de input e cache entre providers e o gateway OpenAI-compatible\n- Preserva separadamente input novo, cache lido e cache gravado da Anthropic\n- Evita subtracao duplicada de cached tokens no transporte do agente\n- Remove chamadas de diagnostico do consolidado de sessoes sem remove-las dos totais e Recent Requests"
 }

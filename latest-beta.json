@@ -1,8 +1,8 @@
 {
-    "version":  "0.2.26-beta",
-    "releaseDate":  "2026-08-31T19:57:09Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.26-beta/achilles-plugin-0.2.26-beta.vsix",
-    "minVsCodeVersion":  "1.90.0",
-    "prerelease":  true,
-    "changelog":  "- Corrige o carregamento infinito ao abrir quatro ou mais janelas do VS Code\n- Mantem um unico gateway compartilhado durante atualizacoes entre versoes compativeis\n- Reduz consultas repetidas de quotas, RTK, skills e sessoes\n- Pausa a atualizacao automatica do dashboard quando o painel esta oculto\n- Exibe recuperacao explicita quando o servico local nao fica pronto"
+  "version": "0.2.28-beta",
+  "releaseDate": "2026-09-02T12:37:59Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.28-beta/achilles-plugin-0.2.28-beta.vsix",
+  "minVsCodeVersion": "1.90.0",
+  "prerelease": true,
+  "changelog": "- Substitui o banner Theia pelo ícone oficial do Achilles na aba Extensions do VS Code\n- Corrige retomada de conversas com sessão persistida sem resposta\n- Mantém execuções ativas ao navegar pela Home ou por outros chats\n- Evita pastas duplicadas durante a sincronização de skills\n- Adiciona regressões unitárias, visuais e E2E"
 }

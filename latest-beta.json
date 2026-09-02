@@ -1,8 +1,8 @@
 {
-  "version": "0.2.28-beta",
-  "releaseDate": "2026-09-02T12:37:59Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.28-beta/achilles-plugin-0.2.28-beta.vsix",
+  "version": "0.2.40-beta",
+  "releaseDate": "2026-09-02T17:39:59Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.40-beta/achilles-plugin-0.2.40-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Substitui o banner Theia pelo ícone oficial do Achilles na aba Extensions do VS Code\n- Corrige retomada de conversas com sessão persistida sem resposta\n- Mantém execuções ativas ao navegar pela Home ou por outros chats\n- Evita pastas duplicadas durante a sincronização de skills\n- Adiciona regressões unitárias, visuais e E2E"
+  "changelog": "- Work Brief temporario para execucoes longas e decisoes confirmadas\n- Memoria estruturada isolada por sessao, com expiracao, relevancia e revisao em Settings\n- Regressao atualizada para o Achilles Gateway, incluindo testes visuais, integrados e multi-instancia\n- Melhorias de retomada de sessoes e persistencia do chat"
 }

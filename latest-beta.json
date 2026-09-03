@@ -1,8 +1,8 @@
 {
-  "version": "0.2.41-beta",
-  "releaseDate": "2026-09-02T22:06:12Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.41-beta/achilles-plugin-0.2.41-beta.vsix",
-  "minVsCodeVersion": "1.90.0",
-  "prerelease": true,
-  "changelog": "- Compactacao incremental reutiliza o resumo anterior\n- Historico ja compactado nao volta a ser enviado ao modelo\n- Outputs antigos de ferramentas sao reduzidos localmente antes dos resumos\n- Regressao cobre compactacoes consecutivas e marcadores sem boundary"
+    "version":  "0.2.42-beta",
+    "releaseDate":  "2026-09-03T00:17:07Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.42-beta/achilles-plugin-0.2.42-beta.vsix",
+    "minVsCodeVersion":  "1.90.0",
+    "prerelease":  true,
+    "changelog":  "- Corrige falsos negativos ao localizar caminhos exatos no workspace\n- Prioriza leitura direta para arquivos conhecidos, incluindo repository-map.md\n- Adiciona regressao para descoberta por caminho literal sem alterar buscas glob"
 }

@@ -1,8 +1,8 @@
 {
-    "version":  "0.2.42-beta",
-    "releaseDate":  "2026-09-03T00:17:07Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.42-beta/achilles-plugin-0.2.42-beta.vsix",
+    "version":  "0.2.44-beta",
+    "releaseDate":  "2026-09-04T00:47:40Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.44-beta/achilles-plugin-0.2.44-beta.vsix",
     "minVsCodeVersion":  "1.90.0",
     "prerelease":  true,
-    "changelog":  "- Corrige falsos negativos ao localizar caminhos exatos no workspace\n- Prioriza leitura direta para arquivos conhecidos, incluindo repository-map.md\n- Adiciona regressao para descoberta por caminho literal sem alterar buscas glob"
+    "changelog":  "- Limita o consumo acumulado de contexto por execucao\n- Reavalia e finaliza tarefas longas antes de multiplicar o cache\n- Corrige telemetria de tokens apos compactacao\n- Garante a conclusao de arquivos Markdown solicitados"
 }

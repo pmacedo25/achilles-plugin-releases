@@ -1,8 +1,8 @@
 {
-    "version":  "0.2.44-beta",
-    "releaseDate":  "2026-09-04T00:47:40Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.44-beta/achilles-plugin-0.2.44-beta.vsix",
+    "version":  "0.2.45-beta",
+    "releaseDate":  "2026-09-04T21:23:16Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.45-beta/achilles-plugin-0.2.45-beta.vsix",
     "minVsCodeVersion":  "1.90.0",
     "prerelease":  true,
-    "changelog":  "- Limita o consumo acumulado de contexto por execucao\n- Reavalia e finaliza tarefas longas antes de multiplicar o cache\n- Corrige telemetria de tokens apos compactacao\n- Garante a conclusao de arquivos Markdown solicitados"
+    "changelog":  "- Impede rodadas autonomas depois de uma resposta final\n- Reavaliacoes internas agora ocorrem somente durante continuacoes reais por ferramenta\n- Injeta o catalogo de skills no prompt corrente sem criar mensagens sinteticas do usuario\n- Adiciona testes de regressao para respostas terminais e filas internas"
 }

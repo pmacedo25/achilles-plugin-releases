@@ -1,8 +1,8 @@
 {
-    "version":  "0.2.48-beta",
-    "releaseDate":  "2026-09-05T19:03:53Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.48-beta/achilles-plugin-0.2.48-beta.vsix",
-    "minVsCodeVersion":  "1.90.0",
-    "prerelease":  true,
-    "changelog":  "- Estados ativo, concluido e descartado para o Work Brief\n- Planos concluidos ou descartados somem do topo e do contexto\n- Retencao segura de 24 horas para recuperacao\n- Controles manuais de conclusao e descarte"
+  "version": "0.2.49-beta",
+  "releaseDate": "2026-09-05T19:58:52Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.49-beta/achilles-plugin-0.2.49-beta.vsix",
+  "minVsCodeVersion": "1.90.0",
+  "prerelease": true,
+  "changelog": "- Corrige contagem de input e cache no streaming Anthropic\n- Faz combos avancarem para o proximo provider em falhas elegiveis\n- Calcula economia financeira de cache com o catalogo de precos\n- Adiciona metricas por sessao de RTK e reducao local do Caveman\n- Mantem traces de eficiencia separados das chamadas aos modelos"
 }

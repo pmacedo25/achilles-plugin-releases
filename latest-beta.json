@@ -1,8 +1,8 @@
 {
-    "version":  "0.2.46-beta",
-    "releaseDate":  "2026-09-05T16:12:14Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.46-beta/achilles-plugin-0.2.46-beta.vsix",
+    "version":  "0.2.47-beta",
+    "releaseDate":  "2026-09-05T18:01:17Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.47-beta/achilles-plugin-0.2.47-beta.vsix",
     "minVsCodeVersion":  "1.90.0",
     "prerelease":  true,
-    "changelog":  "- Corrige a selecao visual de skills e thinking no chat\n- Adiciona carregamento progressivo de recursos internos de skills\n- Protege recursos de skills e workspace contra traversal, escapes e links simbolicos\n- Preserva references, scripts e assets durante a sincronizacao\n- Amplia testes unitarios, de seguranca, visuais e E2E"
+    "changelog":  "- Inicializacao coordenada do gateway entre varias IDEs\n- Limites de fila e retencao de runtimes para menor consumo de recursos\n- Metricas de memoria, carga e tempo de inicializacao\n- Testes de performance com cinco clientes simultaneos"
 }

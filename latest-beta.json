@@ -1,8 +1,8 @@
 {
-  "version": "0.2.49-beta",
-  "releaseDate": "2026-09-05T19:58:52Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.49-beta/achilles-plugin-0.2.49-beta.vsix",
+  "version": "0.2.51-beta",
+  "releaseDate": "2026-09-07T01:59:46Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.51-beta/achilles-plugin-0.2.51-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Corrige contagem de input e cache no streaming Anthropic\n- Faz combos avancarem para o proximo provider em falhas elegiveis\n- Calcula economia financeira de cache com o catalogo de precos\n- Adiciona metricas por sessao de RTK e reducao local do Caveman\n- Mantem traces de eficiencia separados das chamadas aos modelos"
+  "changelog": "- Adiciona orçamento adaptativo de contexto entre 32k e 64k tokens\n- Exibe telemetria de contexto e compactação manual no chat\n- Restringe memória a conhecimento sem autoridade de ação\n- Reduz o volume de outputs de terminal e ferramentas\n- Melhora a localização exata de caminhos no workspace"
 }

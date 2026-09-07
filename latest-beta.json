@@ -1,8 +1,8 @@
 {
-  "version": "0.2.51-beta",
-  "releaseDate": "2026-09-07T01:59:46Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.51-beta/achilles-plugin-0.2.51-beta.vsix",
+  "version": "0.2.62-beta",
+  "releaseDate": "2026-09-07T18:35:16Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.62-beta/achilles-plugin-0.2.62-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Adiciona orçamento adaptativo de contexto entre 32k e 64k tokens\n- Exibe telemetria de contexto e compactação manual no chat\n- Restringe memória a conhecimento sem autoridade de ação\n- Reduz o volume de outputs de terminal e ferramentas\n- Melhora a localização exata de caminhos no workspace"
+  "changelog": "- Melhorias de inicializacao, consumo de recursos e carregamento do historico.\n- Correcoes de continuidade do chat, cancelamento e atualizacao de metricas.\n- Buscas e leituras mais focadas, com sinalizacao de resultados parciais.\n- Regressao funcional, visual e integrada validada.\n\nVersao beta para testes. Para uso geral, mantenha o canal estavel. Para receber esta versao, habilite atualizacoes beta nas configuracoes do Achilles."
 }

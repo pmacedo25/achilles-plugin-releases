@@ -1,8 +1,8 @@
 {
-  "version": "0.2.62-beta",
-  "releaseDate": "2026-09-07T18:35:16Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.62-beta/achilles-plugin-0.2.62-beta.vsix",
+  "version": "0.2.64-beta",
+  "releaseDate": "2026-09-07T21:03:24Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.64-beta/achilles-plugin-0.2.64-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Melhorias de inicializacao, consumo de recursos e carregamento do historico.\n- Correcoes de continuidade do chat, cancelamento e atualizacao de metricas.\n- Buscas e leituras mais focadas, com sinalizacao de resultados parciais.\n- Regressao funcional, visual e integrada validada.\n\nVersao beta para testes. Para uso geral, mantenha o canal estavel. Para receber esta versao, habilite atualizacoes beta nas configuracoes do Achilles."
+  "changelog": "Beta para testes. Para uso geral, utilize a versao estavel indicada no README.\n\n- Melhora a estimativa de contexto e reduz resultados antigos de ferramentas sem apagar o historico.\n- Evita compactacoes repetidas sem crescimento relevante do contexto.\n- Melhora a organizacao e a documentacao interna para manutencao.\n- Regressao funcional, visual, E2E e integrada validada localmente."
 }

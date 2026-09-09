@@ -1,8 +1,8 @@
 {
-  "version": "0.2.64-beta",
-  "releaseDate": "2026-09-07T21:03:24Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.64-beta/achilles-plugin-0.2.64-beta.vsix",
+  "version": "0.2.67-beta",
+  "releaseDate": "2026-09-09T22:03:48Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.67-beta/achilles-plugin-0.2.67-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "Beta para testes. Para uso geral, utilize a versao estavel indicada no README.\n\n- Melhora a estimativa de contexto e reduz resultados antigos de ferramentas sem apagar o historico.\n- Evita compactacoes repetidas sem crescimento relevante do contexto.\n- Melhora a organizacao e a documentacao interna para manutencao.\n- Regressao funcional, visual, E2E e integrada validada localmente."
+  "changelog": "Beta para testes. Para uso geral, utilize a versao estavel indicada no README.\n\n- Seletor de skills simplificado para Nenhuma ou uma skill do modo atual.\n- Remove os modos Automatico e Off e evita injecao automatica do catalogo de skills.\n- Eleva o piso operacional de contexto para 48k.\n- Reduz a janela maxima para 180k e adiciona o marcador de 48k na barra de contexto.\n- Regressao funcional, visual, E2E, integrada e de performance validada localmente."
 }

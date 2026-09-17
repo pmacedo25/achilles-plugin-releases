@@ -1,8 +1,8 @@
 {
-  "version": "0.2.67-beta",
-  "releaseDate": "2026-09-09T22:03:48Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.2.67-beta/achilles-plugin-0.2.67-beta.vsix",
-  "minVsCodeVersion": "1.90.0",
-  "prerelease": true,
-  "changelog": "Beta para testes. Para uso geral, utilize a versao estavel indicada no README.\n\n- Seletor de skills simplificado para Nenhuma ou uma skill do modo atual.\n- Remove os modos Automatico e Off e evita injecao automatica do catalogo de skills.\n- Eleva o piso operacional de contexto para 48k.\n- Reduz a janela maxima para 180k e adiciona o marcador de 48k na barra de contexto.\n- Regressao funcional, visual, E2E, integrada e de performance validada localmente."
+    "version":  "0.3.7-beta",
+    "releaseDate":  "2026-09-17T17:55:03Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.7-beta/achilles-plugin-0.3.7-beta.vsix",
+    "minVsCodeVersion":  "1.90.0",
+    "prerelease":  true,
+    "changelog":  "Beta com Control Plane unificado e ferramentas pessoais extensíveis.\n\n- Migra as configurações para o dashboard central e adiciona visualização sanitizada de logs.\n- Adiciona sincronização genérica via Git e plugins pessoais de tools com isolamento, permissões e skill de autoria.\n- Melhora compactação incremental, retenção de contexto e telemetria de progresso.\n- Reforça concorrência do serviço compartilhado, RTK e segurança de arquivos.\n- Amplia testes funcionais, visuais, E2E, integração e performance."
 }

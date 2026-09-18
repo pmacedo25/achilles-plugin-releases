@@ -1,8 +1,8 @@
 {
-    "version":  "0.3.7-beta",
-    "releaseDate":  "2026-09-17T17:55:03Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.7-beta/achilles-plugin-0.3.7-beta.vsix",
-    "minVsCodeVersion":  "1.90.0",
-    "prerelease":  true,
-    "changelog":  "Beta com Control Plane unificado e ferramentas pessoais extensíveis.\n\n- Migra as configurações para o dashboard central e adiciona visualização sanitizada de logs.\n- Adiciona sincronização genérica via Git e plugins pessoais de tools com isolamento, permissões e skill de autoria.\n- Melhora compactação incremental, retenção de contexto e telemetria de progresso.\n- Reforça concorrência do serviço compartilhado, RTK e segurança de arquivos.\n- Amplia testes funcionais, visuais, E2E, integração e performance."
+  "version": "0.3.8-beta",
+  "releaseDate": "2026-09-18T01:28:56Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.8-beta/achilles-plugin-0.3.8-beta.vsix",
+  "minVsCodeVersion": "1.90.0",
+  "prerelease": true,
+  "changelog": "- Corrige a medicao do contexto para usar a mesma projecao model-facing da barra e da compactacao.\n- Preserva o resumo anterior e compacta apenas o delta novo apos cada checkpoint.\n- Evita o rebote do contexto causado por contadores atrasados do provider.\n- Mantem 16 mil tokens recentes no primeiro corte, com reducao progressiva apenas por seguranca.\n- Adiciona regressao para compactacao, retomada, barra dinamica e prompts pequenos apos checkpoint."
 }

@@ -1,8 +1,8 @@
 {
-  "version": "0.3.11-beta",
-  "releaseDate": "2026-09-18T19:07:27Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.11-beta/achilles-plugin-0.3.11-beta.vsix",
-  "minVsCodeVersion": "1.90.0",
-  "prerelease": true,
-  "changelog": "- Permite ate tres execucoes consecutivas do mesmo comando de terminal\n- Reinicia o contador apos analise do agente, alteracao no workspace, outro comando ou falha\n- Corrige o fluxo teste falhou, codigo corrigido e teste executado novamente\n- Inclui regressao completa, testes visuais, E2E, integracao e performance"
+    "version":  "0.3.13-beta",
+    "releaseDate":  "2026-09-18T20:46:06Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.13-beta/achilles-plugin-0.3.13-beta.vsix",
+    "minVsCodeVersion":  "1.90.0",
+    "prerelease":  true,
+    "changelog":  "- Corrige o sync de skills quando uma janela ainda está conectada a um serviço local de versão anterior.\n- Atualiza o daemon compartilhado de forma coordenada, preservando requisições ativas e a reconexão entre IDEs.\n- Evita duplicação da mensagem final quando o provider retorna novamente o transcript concatenado após o streaming.\n- Inclui regressão unitária, visual, E2E, integração e performance."
 }

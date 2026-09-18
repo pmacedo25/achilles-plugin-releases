@@ -1,8 +1,8 @@
 {
-  "version": "0.3.8-beta",
-  "releaseDate": "2026-09-18T01:28:56Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.8-beta/achilles-plugin-0.3.8-beta.vsix",
+  "version": "0.3.9-beta",
+  "releaseDate": "2026-09-18T15:23:54Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.9-beta/achilles-plugin-0.3.9-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Corrige a medicao do contexto para usar a mesma projecao model-facing da barra e da compactacao.\n- Preserva o resumo anterior e compacta apenas o delta novo apos cada checkpoint.\n- Evita o rebote do contexto causado por contadores atrasados do provider.\n- Mantem 16 mil tokens recentes no primeiro corte, com reducao progressiva apenas por seguranca.\n- Adiciona regressao para compactacao, retomada, barra dinamica e prompts pequenos apos checkpoint."
+  "changelog": "- Adiciona workspace temporário isolado por sessão, com limpeza ligada à retenção dos chats.\n- Corrige isolamento, fila e retomada de execuções concorrentes entre chats.\n- Evita ciclos improdutivos de leitura sem reduzir a capacidade do agente.\n- Otimiza a sincronização compartilhada entre múltiplas instâncias do VS Code.\n- Melhora compactação incremental, carregamento progressivo de skills e diagnósticos."
 }

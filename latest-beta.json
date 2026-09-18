@@ -1,8 +1,8 @@
 {
-  "version": "0.3.9-beta",
-  "releaseDate": "2026-09-18T15:23:54Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.9-beta/achilles-plugin-0.3.9-beta.vsix",
+  "version": "0.3.10-beta",
+  "releaseDate": "2026-09-18T17:35:05Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.10-beta/achilles-plugin-0.3.10-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Adiciona workspace temporário isolado por sessão, com limpeza ligada à retenção dos chats.\n- Corrige isolamento, fila e retomada de execuções concorrentes entre chats.\n- Evita ciclos improdutivos de leitura sem reduzir a capacidade do agente.\n- Otimiza a sincronização compartilhada entre múltiplas instâncias do VS Code.\n- Melhora compactação incremental, carregamento progressivo de skills e diagnósticos."
+  "changelog": "- Estabiliza o contexto com primeiro checkpoint em 80k e consolidacao limitada de deltas\n- Mantem a skill selecionada fora do historico compactavel\n- Remove steering sintetico durante lotes de ferramentas e artefatos de resposta vazia\n- Estabiliza o catalogo de tools por sessao e adiciona telemetria de exploracao\n- Inclui regressao completa, testes visuais, E2E, integracao e performance"
 }

@@ -1,8 +1,8 @@
 {
-  "version": "0.3.10-beta",
-  "releaseDate": "2026-09-18T17:35:05Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.10-beta/achilles-plugin-0.3.10-beta.vsix",
+  "version": "0.3.11-beta",
+  "releaseDate": "2026-09-18T19:07:27Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.11-beta/achilles-plugin-0.3.11-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Estabiliza o contexto com primeiro checkpoint em 80k e consolidacao limitada de deltas\n- Mantem a skill selecionada fora do historico compactavel\n- Remove steering sintetico durante lotes de ferramentas e artefatos de resposta vazia\n- Estabiliza o catalogo de tools por sessao e adiciona telemetria de exploracao\n- Inclui regressao completa, testes visuais, E2E, integracao e performance"
+  "changelog": "- Permite ate tres execucoes consecutivas do mesmo comando de terminal\n- Reinicia o contador apos analise do agente, alteracao no workspace, outro comando ou falha\n- Corrige o fluxo teste falhou, codigo corrigido e teste executado novamente\n- Inclui regressao completa, testes visuais, E2E, integracao e performance"
 }

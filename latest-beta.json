@@ -1,8 +1,8 @@
 {
-    "version":  "0.3.13-beta",
-    "releaseDate":  "2026-09-18T20:46:06Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.13-beta/achilles-plugin-0.3.13-beta.vsix",
-    "minVsCodeVersion":  "1.90.0",
-    "prerelease":  true,
-    "changelog":  "- Corrige o sync de skills quando uma janela ainda está conectada a um serviço local de versão anterior.\n- Atualiza o daemon compartilhado de forma coordenada, preservando requisições ativas e a reconexão entre IDEs.\n- Evita duplicação da mensagem final quando o provider retorna novamente o transcript concatenado após o streaming.\n- Inclui regressão unitária, visual, E2E, integração e performance."
+  "version": "0.3.15-beta",
+  "releaseDate": "2026-09-22T03:37:40Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.15-beta/achilles-plugin-0.3.15-beta.vsix",
+  "minVsCodeVersion": "1.90.0",
+  "prerelease": true,
+  "changelog": "- Corrige leituras repetidas do mesmo arquivo sem limitar a autonomia do agente.\n- Evita reinjecao de evidencia ja carregada e preserva paginacao progressiva.\n- Corrige respostas finais duplicadas, concatenadas ou com Markdown incorreto.\n- Adiciona regressao real com Antigravity, testes E2E e telemetria de cache de leitura.\n- Atualiza dependencias afetadas por alertas de seguranca."
 }

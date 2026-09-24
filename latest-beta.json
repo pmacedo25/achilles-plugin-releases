@@ -1,8 +1,8 @@
 {
-  "version": "0.3.16-beta",
-  "releaseDate": "2026-09-24T18:02:50Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.16-beta/achilles-plugin-0.3.16-beta.vsix",
-  "minVsCodeVersion": "1.90.0",
-  "prerelease": true,
-  "changelog": "- Corrige duplicacao da analise final em execucoes com ferramentas.\n- Consolida a resposta persistida a partir dos blocos canonicos do chat.\n- Preserva blocos de codigo repetidos e conclusoes textuais distintas.\n- Adiciona testes de regressao da finalizacao e da persistencia da conversa."
+    "version":  "0.3.19-beta",
+    "releaseDate":  "2026-09-24T21:15:59Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.19-beta/achilles-plugin-0.3.19-beta.vsix",
+    "minVsCodeVersion":  "1.90.0",
+    "prerelease":  true,
+    "changelog":  "- Atualiza os SDKs e conectores de OpenAI Codex, Anthropic, GitHub Copilot e Antigravity para modelos recentes.\n- Atualiza o RTK embarcado para 0.50.0 com validacao oficial de checksum.\n- Corrige respostas finais duplicadas, inclusive resumos reformulados pelo provider.\n- Amplia testes de regressao visual, persistencia, gateway e empacotamento."
 }

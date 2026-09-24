@@ -1,8 +1,8 @@
 {
-  "version": "0.3.15-beta",
-  "releaseDate": "2026-09-22T03:37:40Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.15-beta/achilles-plugin-0.3.15-beta.vsix",
+  "version": "0.3.16-beta",
+  "releaseDate": "2026-09-24T18:02:50Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.16-beta/achilles-plugin-0.3.16-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Corrige leituras repetidas do mesmo arquivo sem limitar a autonomia do agente.\n- Evita reinjecao de evidencia ja carregada e preserva paginacao progressiva.\n- Corrige respostas finais duplicadas, concatenadas ou com Markdown incorreto.\n- Adiciona regressao real com Antigravity, testes E2E e telemetria de cache de leitura.\n- Atualiza dependencias afetadas por alertas de seguranca."
+  "changelog": "- Corrige duplicacao da analise final em execucoes com ferramentas.\n- Consolida a resposta persistida a partir dos blocos canonicos do chat.\n- Preserva blocos de codigo repetidos e conclusoes textuais distintas.\n- Adiciona testes de regressao da finalizacao e da persistencia da conversa."
 }

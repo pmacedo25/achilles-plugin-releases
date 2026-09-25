@@ -1,8 +1,8 @@
 {
-    "version":  "0.3.19-beta",
-    "releaseDate":  "2026-09-24T21:15:59Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.19-beta/achilles-plugin-0.3.19-beta.vsix",
-    "minVsCodeVersion":  "1.90.0",
-    "prerelease":  true,
-    "changelog":  "- Atualiza os SDKs e conectores de OpenAI Codex, Anthropic, GitHub Copilot e Antigravity para modelos recentes.\n- Atualiza o RTK embarcado para 0.50.0 com validacao oficial de checksum.\n- Corrige respostas finais duplicadas, inclusive resumos reformulados pelo provider.\n- Amplia testes de regressao visual, persistencia, gateway e empacotamento."
+  "version": "0.3.21-beta",
+  "releaseDate": "2026-09-25T19:22:20Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.21-beta/achilles-plugin-0.3.21-beta.vsix",
+  "minVsCodeVersion": "1.90.0",
+  "prerelease": true,
+  "changelog": "- Corrige respostas finais duplicadas ou concatenadas, preservando Markdown, espaços e parágrafos.\n- Corrige geração de arquivos com conectores que qualificam tools, como default_api:workspace_write.\n- Unifica conteúdo exibido e persistido para evitar divergências no histórico.\n- Sincroniza automaticamente versões dos manifests e lockfiles.\n- Amplia testes unitários, de persistência e E2E visual contra regressões."
 }

@@ -1,8 +1,8 @@
 {
-  "version": "0.3.21-beta",
-  "releaseDate": "2026-09-25T19:22:20Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.21-beta/achilles-plugin-0.3.21-beta.vsix",
+  "version": "0.3.22-beta",
+  "releaseDate": "2026-09-28T19:17:19Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.22-beta/achilles-plugin-0.3.22-beta.vsix",
   "minVsCodeVersion": "1.90.0",
   "prerelease": true,
-  "changelog": "- Corrige respostas finais duplicadas ou concatenadas, preservando Markdown, espaços e parágrafos.\n- Corrige geração de arquivos com conectores que qualificam tools, como default_api:workspace_write.\n- Unifica conteúdo exibido e persistido para evitar divergências no histórico.\n- Sincroniza automaticamente versões dos manifests e lockfiles.\n- Amplia testes unitários, de persistência e E2E visual contra regressões."
+  "changelog": "- Corrige definitivamente a duplicacao da resposta final do agente\n- Torna o streaming concluido a fonte autoritativa da mensagem\n- Adiciona regressao de projecao, persistencia e renderizacao do chat"
 }

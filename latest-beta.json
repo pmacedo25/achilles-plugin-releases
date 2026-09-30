@@ -1,8 +1,8 @@
 {
-  "version": "0.3.22-beta",
-  "releaseDate": "2026-09-28T19:17:19Z",
-  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.22-beta/achilles-plugin-0.3.22-beta.vsix",
-  "minVsCodeVersion": "1.90.0",
-  "prerelease": true,
-  "changelog": "- Corrige definitivamente a duplicacao da resposta final do agente\n- Torna o streaming concluido a fonte autoritativa da mensagem\n- Adiciona regressao de projecao, persistencia e renderizacao do chat"
+    "version":  "0.3.23-beta",
+    "releaseDate":  "2026-09-30T20:24:13Z",
+    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.23-beta/achilles-plugin-0.3.23-beta.vsix",
+    "minVsCodeVersion":  "1.90.0",
+    "prerelease":  true,
+    "changelog":  "- Corrige o schema da ferramenta session_temp para modelos Claude via Cloud Code Assist/Antigravity.\n- Adiciona regressao contra anyOf/const incompatíveis no contrato de ferramentas.\n- Evita bloqueio em rebase interativo e oferece reescrita segura de mensagem de commit."
 }

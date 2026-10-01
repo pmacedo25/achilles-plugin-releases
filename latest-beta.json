@@ -1,8 +1,8 @@
 {
-    "version":  "0.3.23-beta",
-    "releaseDate":  "2026-09-30T20:24:13Z",
-    "downloadUrl":  "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.23-beta/achilles-plugin-0.3.23-beta.vsix",
-    "minVsCodeVersion":  "1.90.0",
-    "prerelease":  true,
-    "changelog":  "- Corrige o schema da ferramenta session_temp para modelos Claude via Cloud Code Assist/Antigravity.\n- Adiciona regressao contra anyOf/const incompatíveis no contrato de ferramentas.\n- Evita bloqueio em rebase interativo e oferece reescrita segura de mensagem de commit."
+  "version": "0.3.24-beta",
+  "releaseDate": "2026-10-01T02:39:44Z",
+  "downloadUrl": "https://github.com/pmacedo25/achilles-plugin-releases/releases/download/v0.3.24-beta/achilles-plugin-0.3.24-beta.vsix",
+  "minVsCodeVersion": "1.90.0",
+  "prerelease": true,
+  "changelog": "- Corrige aberturas aleatorias do circuit breaker dos providers.\n- Isola o circuito por conexao e modelo para preservar rotas saudaveis.\n- Ignora cancelamentos e erros funcionais na contagem de falhas transitorias.\n- Respeita Retry-After e registra transicoes do circuito nos logs do Control Plane.\n- Amplia a regressao de fallback, concorrencia e recuperacao half-open."
 }
